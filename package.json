@@ -1,0 +1,29 @@
+{
+  "name": "graphics",
+  "version": "0.0.1",
+  "description": "Computer graphics book for front-end developers.",
+  "repository": "git@github.com:0326/js-modules-docs.git",
+  "author": "0326 <winniringy@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npm start",
+    "start": "parcel index.html --no-cache",
+    "test": "",
+    "lint": "eslint ./src",
+    "build": "rimraf docs && mkdir docs && parcel build index.html -d docs --public-url //quanfeng.tech/graphics/"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.18.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "parcel-bundler": "^1.6.2",
+    "parcel-plugin-md": "^1.0.1",
+    "node-sass": "^4.7.2",
+    "rimraf": "^2.6.2"
+  }
+}

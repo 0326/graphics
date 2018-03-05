@@ -1,0 +1,17 @@
+{
+  "extends": "standard",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "globals": {
+    "$": true,
+    "hljs": true
+  },
+  "rules": {
+    "semi": ["error", "never"]
+  }
+}

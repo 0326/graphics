@@ -12,6 +12,8 @@
     "hljs": true
   },
   "rules": {
+    "no-new": "off",
+    "space-before-function-paren": ["error", "never"],
     "semi": ["error", "never"]
   }
 }
